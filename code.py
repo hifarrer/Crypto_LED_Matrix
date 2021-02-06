@@ -18,7 +18,8 @@ except ImportError:
 CURRENCY = "USD"
 # the current working directory (where this file is)
 cwd = ("/" + __file__).rsplit("/", 1)[0]
-cryptos = ["BTC", "ETH", "LTC", "DOGE"]
+
+from secrets import cryptos
 
 #matrixportal PRE-LOAD
 matrixportal = MatrixPortal(
@@ -71,7 +72,7 @@ def getcryptosdata(crypto, profileid):
         print(error)
 
     #crypto_price = text_transform(crypto_price)
-    crypto_price = str(crypto_price)[:8]
+    crypto_price = str(crypto_price)[:7]
     matrixportal.set_text(crypto_price)
     matrixportal.set_background(cwd + "/Crypto_bg_"+str(profileid)+".bmp")
 
