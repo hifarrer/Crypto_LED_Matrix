@@ -1,7 +1,9 @@
 # Crypto_LED_Matrix
 Crypto_LED_Matrix
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/SPsfjVg" data-context="false" ><a href="//imgur.com/a/SPsfjVg"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+Image:<br>
+https://imgur.com/a/SPsfjVg
+<br>
 
 Parts: https://learn.adafruit.com/bitcoin-value-rgb-matrix-display/using-matrixportal
 <br>
