@@ -19,3 +19,7 @@ After that just just replace the code.py file and images for the ones in this re
 API used: https://p.nomics.com/cryptocurrency-bitcoin-api
 <br>
 Replace all your info in secret.py file, and you're good to go to the moon.
+<br>
+
+<br><b>Want to just buy one</b><br>
+https://etsy.me/3pYPLwF
