@@ -16,6 +16,6 @@ https://learn.adafruit.com/bitcoin-value-rgb-matrix-display/code-the-bitcoin-mat
 <br>
 After that just just replace the code.py file and images for the ones in this repository.
 <br>
-API used: https://coinmarketcap.com/api
+API used: https://p.nomics.com/cryptocurrency-bitcoin-api
 <br>
 Replace all your info in secret.py file, and you're good to go to the moon.
