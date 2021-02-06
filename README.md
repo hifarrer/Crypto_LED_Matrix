@@ -21,5 +21,5 @@ API used: https://p.nomics.com/cryptocurrency-bitcoin-api
 Replace all your info in secret.py file, and you're good to go to the moon.
 <br>
 
-<br><b>Want to just buy one</b><br>
+<br><b>Want to just buy one?</b><br>
 https://etsy.me/3pYPLwF
