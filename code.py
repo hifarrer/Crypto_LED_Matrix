@@ -53,10 +53,14 @@ time.sleep(1)#show first image
 def getcryptosdata(crypto, profileid):
     print("getcryptosdata start")
     print("profile id:", profileid)
-    APIKEY = secrets["CMC_key"]
-    # Set up where we'll be fetching data from
-    DATA_SOURCE = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest?symbol="+crypto+"&CMC_PRO_API_KEY="+ APIKEY
-    DATA_LOCATION = ["data",crypto,"quote","USD","price"] #for this API c means current price
+    APIKEY = secrets["API_KEY"]
+    #Use this for coinmarketcap (Free API is very limited)
+    #DATA_SOURCE = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest?symbol="+crypto+"&CMC_PRO_API_KEY="+ APIKEY
+    #DATA_LOCATION = ["data",crypto,"quote","USD","price"] #for this API c means current price
+
+    # use this for Nomics.com (real Free API)
+    DATA_SOURCE = "https://api.nomics.com/v1/currencies/ticker?ids="+crypto+"&key="+ APIKEY
+    DATA_LOCATION = [0,"price"]
 
     try:
         crypto_data = matrixportal.network.fetch(DATA_SOURCE)
